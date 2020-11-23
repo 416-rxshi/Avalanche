@@ -18,7 +18,7 @@ if __name__ == "__main__":
     pygame.mixer.music.play(-1)
     size = (800, 600)
     screen = pygame.display.set_mode(size)
-    pygame.display.set_caption(" Tetris by Zeeshan")
+    pygame.display.set_caption(" Tetris by Satyajit")
     shape = Shape()
     nextshape = Shape()
     shadowshape = Shadowshape(shape.shapenum)
